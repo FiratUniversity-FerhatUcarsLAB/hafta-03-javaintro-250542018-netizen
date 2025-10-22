@@ -1,7 +1,15 @@
-    public static void main(String[] args) {
-                System.out.println("a\ta^2\ta^3");
-                System.out.println("---------------------------");
-                for (int a = 1; a <= 5; a++) {
-                    System.out.println(a + "\t" + (a * a) + "\t" + (a * a * a));
-                }
+public static void main(String[] args) {
+        int sayi = 2;
+
+        System.out.println(sayi + "'nin Çarpım Tablosu");
+        System.out.println("---------------------");
+
+        for (int i = 1; i <= 10; i++) {
+
+
+            int sonuc = sayi * i;
+
+            System.out.printf("%d x %2d = %d\n", sayi, i, sonuc);
+
+        }
     }
